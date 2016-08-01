@@ -1,2 +1,5 @@
 jquerybem.sublime*
 node_modules
+dist
+src/jquery.bem.js
+.eslintrc.json

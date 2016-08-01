@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>jQuery BEM plugin</title>
+</head>
+<body>
+    <h1 class="bem-heading">bem-heading</h1>
+    <ul class="bem-list">
+        <li class="bem-list__item">bem-list__item</li>
+        <li class="bem-list__item bem-list__item--active">bem-list__item--active</li>
+        <li class="bem-list__item">bem-list__item</li>
+        <li class="bem-list__item">bem-list__item</li>
+    </ul>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="/dist/jquery.bem.js"></script>
+    <script>
+        jQuery(function($){
+            heading = $('.bem-heading').BEM();
+            listItem = $($('.bem-list__item')[1]).BEM();
+
+            console.log(heading.BEMClass);
+            console.log(listItem);
+        });
+    </script>
+</body>
+</html>

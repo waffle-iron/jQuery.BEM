@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/linlymatsumura/jQuery.BEM.png?label=ready&title=Ready)](https://waffle.io/linlymatsumura/jQuery.BEM)
 # jQuery.BEM
 
 ## install
